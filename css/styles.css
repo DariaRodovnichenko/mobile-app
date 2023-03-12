@@ -1,0 +1,15 @@
+.container {
+    width: 1268px;
+    padding: 0 16px;
+margin: 0 auto;
+}
+.nav {display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+.header-item {
+}
