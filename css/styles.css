@@ -1,15 +1,76 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+body {}
+
+img {
+    display: block;
+}
+
+
 .container {
     width: 1268px;
     padding: 0 16px;
-margin: 0 auto;
+    margin: 0 auto;
 }
-.nav {display: flex;
+
+.nav {
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .header-list {
     display: flex;
     gap: 40px;
 }
-.header-item {
+
+.header-item {}
+
+/* -----------------------hero----------------------- */
+.hero {
+    padding-top: 145px;
+    padding-bottom: 146px;
 }
+
+.hero-iner {}
+
+.hero-title {
+    margin-bottom: 12px;
+}
+
+.hero-text {
+    margin-bottom: 28px;
+}
+
+.hero-list {
+    margin-bottom: 60px;
+}
+
+.hero-list-item:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.hero-button {}
