@@ -29,13 +29,13 @@ img {
     display: block;
 }
 
-
 .container {
     width: 1268px;
     padding: 0 16px;
     margin: 0 auto;
 }
 
+/**HEADER*/
 .nav {
     display: flex;
     align-items: center;
@@ -47,7 +47,9 @@ img {
     gap: 40px;
 }
 
-.header-item {}
+.header-item {
+    
+}
 
 /* -----------------------hero----------------------- */
 .hero {
